@@ -1,0 +1,19 @@
+<Lista de Desejos>
+  <livros>
+    <livro>
+      <id>1</id>
+      <titulo>Eu que nunca conheci os homens</titulo>
+      <autor>Jacqueline Harpman</autor>
+    </livro>
+    <livro>
+      <id>2</id>
+      <titulo>A paciente silenciosa</titulo>
+      <autor>Alex Michaelides</autor>
+    </livro>
+    <livro>
+      <id>3</id>
+      <titulo>A vida invisível de Addie Larue</titulo>
+      <autor>V.E. Schwab</autor>
+    </livro>
+  </livros>
+</Lista de Desejos>
