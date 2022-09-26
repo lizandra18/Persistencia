@@ -1,12 +1,8 @@
 /*
-1. Defina uma entidade principal com pelo menos 5 atributos e relacionada
-a um domínio de problema. Crie também uma classe Java para representá-la.
-Exemplo de entidade com 9 atributos: Cliente: id, nome, cpf, endereço, email,
-fone, cidade, uf, cep. A entidade deve estar relacionada a algo que você gosta
-bastante como: hobie, esporte, pet, alimentação, educação, música, filmes,
-séries, redes sociais, etc. A entidade escolhida por você não pode ser a entidade
-Cliente dada como exemplo. Escolha uma entidade bem diferente dela, inclusive
-quanto aos seus atributos.*/ 
+1. Defina uma entidade principal com pelo menos 5 atributos e relacionada a um domínio de problema. Crie também uma classe Java para representá-la.
+Exemplo de entidade com 9 atributos: Cliente: id, nome, cpf, endereço, email, fone, cidade, uf, cep. A entidade deve estar relacionada a algo que
+você gosta bastante como: hobie, esporte, pet, alimentação, educação, música, filmes, séries, redes sociais, etc. A entidade escolhida por você não
+pode ser a entidade Cliente dada como exemplo. Escolha uma entidade bem diferente dela, inclusive quanto aos seus atributos.*/ 
 
 import java.io.Serializable;
 
