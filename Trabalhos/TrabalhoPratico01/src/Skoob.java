@@ -8,16 +8,18 @@ séries, redes sociais, etc. A entidade escolhida por você não pode ser a enti
 Cliente dada como exemplo. Escolha uma entidade bem diferente dela, inclusive
 quanto aos seus atributos.*/ 
 
-import java.io.Serializable;
-
-public class Skoob implements Serializable {
-    String titulo;
-    String autor;
-    int paginas;
-    String editora;
-    int dataLancamento;
-    String idioma;
+public class Skoob {
+    private String titulo;
+    private String autor;
+    private int paginas;
+    private String editora;
+    private int dataLancamento;
+    private String idioma;
  
+    public Skoob(){
+
+    }
+
     public Skoob(String titulo, String autor, int paginas, String editora, int dataLancamento, String idioma){
         this.titulo = titulo;
         this.autor = autor;
@@ -77,9 +79,14 @@ public class Skoob implements Serializable {
 
     @Override
     public String toString() {
-        return "Skoob [autor=" + autor + ", dataLancamento=" + dataLancamento + ", editora=" + editora + ", idioma="
-                + idioma + ", paginas=" + paginas + ", titulo=" + titulo + "]";
-    }
-
+        return "Skoob{" +
+                "Titulo='" + titulo + '\'' +
+                ", Autor='" + autor + '\'' +
+                ", Paginas='" + paginas + '\'' +
+                ", Editora='" + editora + '\'' +
+                ", Data de Lancamento='" + dataLancamento + '\'' +
+                ", Idioma='" + idioma + '\'' +
+                '}';
+      }
 }
     

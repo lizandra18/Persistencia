@@ -1,0 +1,10 @@
+{
+  "livro" : [ {
+    "titulo" : "caminho dos reis",
+    "autor" : "brandon sanderson",
+    "paginas" : 1698,
+    "editora" : "Suma ",
+    "dataLancamento" : 2022,
+    "idioma" : "portugues"
+  } ]
+}
